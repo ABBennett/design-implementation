@@ -27,12 +27,14 @@
   background-color: #E5F3F4;
   position:relative;
   bottom: 0;
+  text-align: center;
 }
 
 .contact h1 {
   padding-top: 20px;
   color: #37becc;
   font-size: 36px;
+  text-align: center;
 }
 
 
@@ -103,10 +105,29 @@ hr {
 
 #partners {
   background-color: #1c2224;
+  text-align: center;
+  overflow: auto;
 }
 
 #partners_h1 {
   color: #37becc;
   font-size: 36;
   padding-top: 25px;
+}
+
+#partners div p {
+  color: #999999;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.partner {
+  padding: 10px 9px 30px 9px;
+}
+
+.partner_box {
+  padding: 15px 5px 1px 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: #2d2d2d;
 }
